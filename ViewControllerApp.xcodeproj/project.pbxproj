@@ -16,6 +16,7 @@
 		4A44F50D26FDF69C007C13F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A44F50B26FDF69C007C13F6 /* LaunchScreen.storyboard */; };
 		4A44F51826FDF69D007C13F6 /* ViewControllerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44F51726FDF69D007C13F6 /* ViewControllerAppTests.swift */; };
 		4A44F52326FDF69D007C13F6 /* ViewControllerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44F52226FDF69D007C13F6 /* ViewControllerAppUITests.swift */; };
+		4A44F53126FDFF81007C13F6 /* AltController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A44F53026FDFF81007C13F6 /* AltController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4A44F51E26FDF69D007C13F6 /* ViewControllerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A44F52226FDF69D007C13F6 /* ViewControllerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAppUITests.swift; sourceTree = "<group>"; };
 		4A44F52426FDF69D007C13F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A44F53026FDFF81007C13F6 /* AltController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		4A44F4F126FDF69B007C13F6 = {
 			isa = PBXGroup;
 			children = (
+				4A44F53026FDFF81007C13F6 /* AltController.swift */,
 				4A44F4FC26FDF69B007C13F6 /* ViewControllerApp */,
 				4A44F51626FDF69D007C13F6 /* ViewControllerAppTests */,
 				4A44F52126FDF69D007C13F6 /* ViewControllerAppUITests */,
@@ -264,6 +267,7 @@
 				4A44F50226FDF69B007C13F6 /* ViewController.swift in Sources */,
 				4A44F4FE26FDF69B007C13F6 /* AppDelegate.swift in Sources */,
 				4A44F50826FDF69C007C13F6 /* ViewControllerApp.xcdatamodeld in Sources */,
+				4A44F53126FDFF81007C13F6 /* AltController.swift in Sources */,
 				4A44F50026FDF69B007C13F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
